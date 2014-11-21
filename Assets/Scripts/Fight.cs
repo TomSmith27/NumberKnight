@@ -17,8 +17,8 @@ public abstract class Fight : MonoBehaviour {
         set;
     }
 	public GameState CurrentGameState {
-				get;
-				set;
+		get;
+		set;
 	}
     public bool Attacking
     {
