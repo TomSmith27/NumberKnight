@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1D3DE3DD-9BA3-AFF8-FDA7-706BAEF8F566}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>Z:/Program Files (x86)/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>Z:/Program Files (x86)/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Foundation\Core\Editor\BinderEditor.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\BindingContextEditor.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\CommandBinderEditor.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\DeletePlayerPrefsEditor.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\EditorMembersHelper.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\FindMissingScriptsRecursively.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\HierarchyKeySorting.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\InstantiateScriptableObjects.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\LocalizationPostprocessorr.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\LocalizeFormatStringEditor.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\LocalizedTextEditor.cs" />
+     <Compile Include="Assets\Foundation\Core\Editor\PropertyBinderEditor.cs" />
+     <Compile Include="Assets\Foundation\Core\Localization\Editor\LocalizationEditor.cs" />
+     <Compile Include="Assets\Foundation\Core\Localization\Editor\TranslationService.cs" />
+     <None Include="Assets\Foundation\Resources\Localization\Spanish\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\German\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Ukrainian\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\German\LobbyViews.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Turkish\LobbyViews.txt" />
+     <None Include="Assets\Foundation\_Docs\Databinders.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Dutch\LobbyViews.txt" />
+     <None Include="Assets\Foundation\_Docs\Configuration.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Turkish\Lobby.txt" />
+     <None Include="Assets\Foundation\_Log.txt" />
+     <None Include="Assets\Foundation\_Docs\HttpServiceClient.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Polish\LobbyViews.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\English\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Italian\LobbyViews.txt" />
+     <None Include="Assets\Foundation\_Docs\Messenger.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Russian\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Portuguese\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Greek\LobbyViews.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Ukrainian\LobbyViews.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Russian\Examples.txt" />
+     <None Include="Assets\Foundation\_Docs\Audio2D.txt" />
+     <None Include="Assets\Foundation\Resources\Censor.txt" />
+     <None Include="Assets\Foundation\_Docs\Terminal.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Turkish\Examples.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Italian\Examples.txt" />
+     <None Include="Assets\Foundation\_Docs\Localization.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Spanish\LobbyViews.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Chinese\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Polish\Lobby.txt" />
+     <None Include="Assets\Foundation\_Docs\Injector.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\French\LobbyViews.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Portuguese\Examples.txt" />
+     <None Include="Assets\Foundation\_Readme.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Portuguese\LobbyViews.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\French\Examples.txt" />
+     <None Include="Assets\Resources\SoundEffects\melee sounds\melee sounds\melee.txt" />
+     <None Include="Assets\Foundation\_Docs\_QuickStart.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Polish\Examples.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Chinese\Examples.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Spanish\Examples.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Greek\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\French\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Dutch\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Italian\Lobby.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\English\Examples.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Dutch\Examples.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Chinese\LobbyViews.txt" />
+     <None Include="Assets\Foundation\Resources\LocalizationConfig.txt" />
+     <None Include="Assets\Foundation\Resources\CloudConfig.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Ukrainian\Examples.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\English\LobbyViews.txt" />
+     <None Include="Assets\Foundation\_Docs\Tasks.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\German\Examples.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Russian\LobbyViews.txt" />
+     <None Include="Assets\Foundation\Resources\LevelConfig.txt" />
+     <None Include="Assets\Foundation\Resources\Localization\Greek\Examples.txt" />
+     <None Include="Assets\Foundation\Resources\LobbyConfig.txt" />
+     <None Include="Assets\Foundation\_Docs\Android.txt" />
+     <None Include="Assets\Foundation\_Docs\IOS.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>Z:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>Z:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>Z:/Documents/Dropbox/NumberKnightV2/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+ <HintPath>Z:/Documents/Dropbox/NumberKnightV2/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityVS.VersionSpecific">
+ <HintPath>Z:/Documents/Dropbox/NumberKnightV2/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>Z:/Program Files (x86)/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{98D2EE6A-53E7-BBD7-BF3A-11B90AC35B47}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
