@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 6ca1bebc5b92f1d46b2487fd80b01d45
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SnakeSprites
+    21300002: SnakeSprites_0
+    21300004: SnakeSprites_1
+    21300006: SnakeSprites_2
+    21300008: SnakeSprites_3
+    21300010: SnakeSprites_4
+    21300012: SnakeSprites_5
+    21300014: SnakeSprites_6
+    21300016: SnakeSprites_7
+    21300018: SnakeSprites_8
+    21300020: SnakeSprites_9
+    21300022: SnakeSprites_10
+    21300024: SnakeSprites_11
+    21300026: SnakeSprites_12
+    21300028: SnakeSprites_13
+    21300030: SnakeSprites_14
+    21300032: SnakeSprites_15
+    21300034: SnakeSprites_16
+    21300036: SnakeSprites_17
+    21300038: SnakeSprites_18
+    21300040: SnakeSprites_19
+    21300042: SnakeSprites_20
+    21300044: SnakeSprites_21
+    21300046: SnakeSprites_22
+    21300048: SnakeSprites_23
+    21300050: SnakeSprites_24
+    21300052: SnakeSprites_25
+    21300054: SnakeSprites_26
+    21300056: SnakeSprites_27
+    21300058: SnakeSprites_28
+    21300060: SnakeSprites_29
+    21300062: SnakeSprites_30
+    21300064: SnakeSprites_31
+    21300066: SnakeSprites_32
+    21300068: SnakeSprites_33
+    21300070: SnakeSprites_34
+    21300072: SnakeSprites_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SnakeSprites_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 178
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 178
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 178
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 180
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_4
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 180
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 180
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 153
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 153
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 153
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 156
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_10
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 156
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 155
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 131
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 124
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 124
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 127
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 119
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 127
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 132
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 132
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 132
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 89
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 89
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 89
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 106
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 106
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 106
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 59
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 59
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_29
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 59
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_32
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 36
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_34
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeSprites_35
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
